@@ -419,6 +419,9 @@ game:GetService("UserInputService").jumpRequest:Connect(function()
 end)
 end)
 
+Section:NewButton("Better bypasser", "Soon..", function()
+    print("Clicked")
+end)
 
 local Tab = Window:NewTab("Game hubs")
 
