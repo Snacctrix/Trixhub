@@ -464,8 +464,8 @@ Section:NewButton("Slap battles OP", "ButtonInfo", function()
   loadstring(game:HttpGet(("https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Slap%20Battles")))()
 end)
 
-Section:NewButton("not done ", "ButtonInfo", function()
-    print("Clicked")
+Section:NewButton("Piggy item giver", "Recommended for pc.", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Snacctrix/Piggyitemgiver.xml/main/Roblos"))()
 end)
 
 local Tab = Window:NewTab("Character")
